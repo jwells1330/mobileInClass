@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0669BF1DB7F65A004E8A91 /* AddGeotificationTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0669BE1DB7F65A004E8A91 /* AddGeotificationTableTableViewController.swift */; };
 		8D75B3581DB7EE2D004395F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D75B3571DB7EE2D004395F2 /* AppDelegate.swift */; };
 		8D75B35A1DB7EE2D004395F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D75B3591DB7EE2D004395F2 /* ViewController.swift */; };
 		8D75B35D1DB7EE2D004395F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D75B35B1DB7EE2D004395F2 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D0669BE1DB7F65A004E8A91 /* AddGeotificationTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGeotificationTableTableViewController.swift; sourceTree = "<group>"; };
 		8D75B3541DB7EE2D004395F2 /* Geotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D75B3571DB7EE2D004395F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D75B3591DB7EE2D004395F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				8D75B35E1DB7EE2D004395F2 /* Assets.xcassets */,
 				8D75B3601DB7EE2D004395F2 /* LaunchScreen.storyboard */,
 				8D75B3631DB7EE2D004395F2 /* Info.plist */,
+				8D0669BE1DB7F65A004E8A91 /* AddGeotificationTableTableViewController.swift */,
 			);
 			path = Geotify;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				8D75B35A1DB7EE2D004395F2 /* ViewController.swift in Sources */,
 				8D75B3581DB7EE2D004395F2 /* AppDelegate.swift in Sources */,
+				8D0669BF1DB7F65A004E8A91 /* AddGeotificationTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				8D75B37E1DB7EE2D004395F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D75B37F1DB7EE2D004395F2 /* Build configuration list for PBXNativeTarget "GeotifyTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				8D75B3811DB7EE2D004395F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D75B3821DB7EE2D004395F2 /* Build configuration list for PBXNativeTarget "GeotifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				8D75B3841DB7EE2D004395F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
